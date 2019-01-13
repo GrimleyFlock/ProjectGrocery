@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+   <html>
+    <head><title>GROCERY STORE</title>
+    <h1><center>GROCERY CLIENT FORM</center></h1>
+</head>
+<style>
+    h1{
+        color: black;
+    }
+    body{
+        background-image:url("form_background.jpg");
+        background-blend-mode: hue;
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+      
+    }
+    form{
+        color: black;
+    
+    }
+</style>
+    <form><center>
+  <b> First name:</b><br>
+        <input type="text" name="Firstname"><br>
+   <b>Last name:</b><br>
+        <input type="text" name="Lastname"><br> 
+   <b>Home Address:</b><br>
+        <input type="text" name="Address"><br>
+   <b>Phone Number:</b><br>
+        <input type="text" name="Phone number"><br>
+   <b>Email Adress:</b><br>
+        <input type="email" name="email"><br>
+    
+    <p><b>What will your package contain ?</b></p>
+        <input type="checkbox" name="grocery" value="Vegetables">Vegetables<br>
+        <input type="checkbox" name="grocery" value="Cereals">Cereals<br>
+        <input type="checkbox" name="grocery" value="Vegetables">Fruits<br>
+    <p><b>What is your preffered packaging option?</b></p>
+    <select name="packages">
+        <option value="Sack">Sack</option>
+        <option value="Box">Box</option>
+        <option value="Grocery Bag">Grocery Bag</option>
+    </select>
+
+
+
+   <p><b>Please select preffered option</b></p>
+        <input type="radio" name="purchase" value="Delivery">Delivery<br>
+        <input type="radio" name="purchase" value="Pick up">Pick Up<br>
+    <p><b>For the chosen option,Please enter a preffered date and time of pick-up or delivery</b></p>
+    <p><b>Also note that the date should be within the week of order.</b></p>
+        <input type="datetime-local" name="date and time">
+        <p><b><h3>ENJOY YOUR SHOPPING</h3></b></p>
+
+        <input type="submit">
+        <input type="reset">
+    </center></form>
+        </html>
+
+
+

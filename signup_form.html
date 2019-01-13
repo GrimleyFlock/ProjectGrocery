@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Sign up</title>
+	<link href="signup_form.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+		
+		<form class="modal-content" action="insert.php" method="POST"> 
+			<div class="container">
+				<h1><b>Sign Up</b></h1>
+				<p><b>Create an account.</b></p><hr>
+				<label for="email"><b><em>Email</em></b></label>
+				<input type="text" placeholder="Add email" name="email" required>
+				
+				<label for="password"><b><em>Password</em></b></label>
+				<input type="password" placeholder="Add Password" name="password" required>
+				
+				<label for="repeat_password"><b><em>Repeat Password</em></b></label>
+      			<input type="password" placeholder="Repeat Password" name="repeat_password" required>
+      			
+      			<label>
+      				<input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember Me
+      			</label>
+      			
+      			<b><p class="terms">By Creating an account you agree to our <a href="" style="color: gold">Terms & Privacy</a></p></b>
+      			
+      			<div class="clearfix">
+      				<button type="button" onClick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      				<button type="submit" class="signupbtn">Sign Up</button>
+      			</div>
+			</div>
+		</form>
+	
+<script>
+	var modal = document.getElementById('id01');
+	window.onclick = function(event) {
+		if (event.target == modal) {
+			modal.style.display = "none";
+		}
+	}
+</script>
+</body>
+</html>

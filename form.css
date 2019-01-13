@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+h1
+{
+		font-family: 'Montserrat', sans-serif;
+        color: black;
+}
+
+body
+{
+	background-image:url("checkout.jpg");
+    background-blend-mode: hue;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+	
+}
+
+form
+
+{
+	font-family: 'Montserrat', sans-serif;
+    color: black;
+	font-size: 20pt;
+    
+}

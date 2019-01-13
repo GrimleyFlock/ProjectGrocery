@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14pt;
+	font-weight: bold;
+	border:none;
+	width: 70%;
+	
+}
+td{
+	text-align: center;
+	padding: 5px;
+}
+th {
+	background-color: darkgreen;
+	color: gold;
+}
+tr{
+	height: 50%
+}
+
